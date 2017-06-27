@@ -15,8 +15,8 @@
 		BF3F0DDA1EFF612500A22B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3F0DD81EFF612500A22B8D /* LaunchScreen.storyboard */; };
 		BF3F0DE51EFF612500A22B8D /* NetMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3F0DE41EFF612500A22B8D /* NetMonitorTests.m */; };
 		BF3F0DF01EFF612500A22B8D /* NetMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3F0DEF1EFF612500A22B8D /* NetMonitorUITests.m */; };
-		BF3F0E061EFF638800A22B8D /* CHGlobalSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3F0E021EFF638800A22B8D /* CHGlobalSingleton.m */; };
-		BF3F0E071EFF638800A22B8D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3F0E051EFF638800A22B8D /* Reachability.m */; };
+		BFDF49B51F025B7700B29872 /* CHGlobalSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF49B11F025B7700B29872 /* CHGlobalSingleton.m */; };
+		BFDF49B61F025B7700B29872 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDF49B41F025B7700B29872 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		BF3F0DEB1EFF612500A22B8D /* NetMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3F0DEF1EFF612500A22B8D /* NetMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetMonitorUITests.m; sourceTree = "<group>"; };
 		BF3F0DF11EFF612500A22B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF3F0E011EFF638800A22B8D /* CHGlobalSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGlobalSingleton.h; sourceTree = "<group>"; };
-		BF3F0E021EFF638800A22B8D /* CHGlobalSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGlobalSingleton.m; sourceTree = "<group>"; };
-		BF3F0E041EFF638800A22B8D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		BF3F0E051EFF638800A22B8D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BFDF49B01F025B7700B29872 /* CHGlobalSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGlobalSingleton.h; sourceTree = "<group>"; };
+		BFDF49B11F025B7700B29872 /* CHGlobalSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGlobalSingleton.m; sourceTree = "<group>"; };
+		BFDF49B31F025B7700B29872 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BFDF49B41F025B7700B29872 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		BF3F0DC91EFF612500A22B8D /* NetMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				BF3F0E001EFF638800A22B8D /* NetMonitor */,
+				BFDF49AF1F025B7700B29872 /* lib */,
 				BF3F0DCD1EFF612500A22B8D /* AppDelegate.h */,
 				BF3F0DCE1EFF612500A22B8D /* AppDelegate.m */,
 				BF3F0DD01EFF612500A22B8D /* ViewController.h */,
@@ -147,21 +147,21 @@
 			path = NetMonitorUITests;
 			sourceTree = "<group>";
 		};
-		BF3F0E001EFF638800A22B8D /* NetMonitor */ = {
+		BFDF49AF1F025B7700B29872 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				BF3F0E031EFF638800A22B8D /* Reachability */,
-				BF3F0E011EFF638800A22B8D /* CHGlobalSingleton.h */,
-				BF3F0E021EFF638800A22B8D /* CHGlobalSingleton.m */,
+				BFDF49B01F025B7700B29872 /* CHGlobalSingleton.h */,
+				BFDF49B11F025B7700B29872 /* CHGlobalSingleton.m */,
+				BFDF49B21F025B7700B29872 /* Reachability */,
 			);
-			path = NetMonitor;
-			sourceTree = "<group>";
+			path = lib;
+			sourceTree = SOURCE_ROOT;
 		};
-		BF3F0E031EFF638800A22B8D /* Reachability */ = {
+		BFDF49B21F025B7700B29872 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				BF3F0E041EFF638800A22B8D /* Reachability.h */,
-				BF3F0E051EFF638800A22B8D /* Reachability.m */,
+				BFDF49B31F025B7700B29872 /* Reachability.h */,
+				BFDF49B41F025B7700B29872 /* Reachability.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -300,10 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3F0DD21EFF612500A22B8D /* ViewController.m in Sources */,
-				BF3F0E061EFF638800A22B8D /* CHGlobalSingleton.m in Sources */,
+				BFDF49B51F025B7700B29872 /* CHGlobalSingleton.m in Sources */,
 				BF3F0DCF1EFF612500A22B8D /* AppDelegate.m in Sources */,
 				BF3F0DCC1EFF612500A22B8D /* main.m in Sources */,
-				BF3F0E071EFF638800A22B8D /* Reachability.m in Sources */,
+				BFDF49B61F025B7700B29872 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
