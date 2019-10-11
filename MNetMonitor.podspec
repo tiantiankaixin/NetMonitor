@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MNetMonitor"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "网络状态监测."
 
 s.description  = <<-DESC
