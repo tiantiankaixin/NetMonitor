@@ -29,5 +29,6 @@
 + (void)startNetMonitoring;
 + (void)stopNetMonitoring;
 + (BOOL)isMobileNetWork;
++ (void)testFunc;
 
 @end

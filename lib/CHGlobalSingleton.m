@@ -105,4 +105,9 @@ static CHGlobalSingleton * globalSharedInstance = nil;
     return YES;
 }
 
++ (void)testFunc
+{
+    NSLog(@"测试一下pod库上传");
+}
+
 @end
